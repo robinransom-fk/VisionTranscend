@@ -33,7 +33,7 @@ const ProjectCard = ({ project, delay = 0 }: ProjectCardProps) => {
           <motion.img 
             src={project.image}
             alt={project.title}
-            className="object-cover w-full h-full scale-100 group-hover:scale-110 transition-transform duration-[1.2s] ease-out"
+            className="object-cover w-full h-full scale-100 group-hover:scale-110 transition-transform duration-1000 ease-out"
           />
         </motion.div>
       </div>
