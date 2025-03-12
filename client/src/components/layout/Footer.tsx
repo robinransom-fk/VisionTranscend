@@ -31,10 +31,11 @@ const Footer = () => {
             <ul className="space-y-3">
               {NAVIGATION_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href}>
-                    <a className="hover:text-brand-brown transition duration-300">
-                      {link.name}
-                    </a>
+                  <Link 
+                    href={link.href}
+                    className="hover:text-brand-brown transition duration-300"
+                  >
+                    {link.name}
                   </Link>
                 </li>
               ))}
